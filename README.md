@@ -16,15 +16,12 @@ This repository contains the deployment setup for a 3-tier Angular application (
    - Created a `docker-compose.yml` to group the application.
    - Pushed Docker images to a Docker registry.
 
-4. **Private Docker Registry** (Bonus):
-   - Set up a private Docker registry using [DigitalOcean tutorial](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-22-04).
-
-5. **Kubernetes Deployment**:
+4. **Kubernetes Deployment**:
    - Created Kubernetes YAML files for frontend, backend, and MySQL with Persistent Volumes and Persistent Volume Claims for MySQL data.
    - Deployed the application on the Kubernetes cluster.
 
-6. **Ingress Setup**:
+5. **Ingress Setup**:
    - Used Nginx Ingress Controller to expose the Angular frontend.
 
-7. **Git Operations**:
+6. **Git Operations**:
    - All Kubernetes YAML files are pushed to this repository using Git CLI
